@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "competitive-programming"
+version = "0.1.0"
+description = ""
+authors = ["alazar alemayehu <alazar.1994@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.1.1"
+program = "^0.0.1a0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
